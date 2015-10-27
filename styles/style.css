@@ -1,0 +1,70 @@
+/* main body css */
+
+/* commence primary ignition */
+
+  header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+  }
+  body { 
+    font-family: Georgia, "Times New Roman", serif, Myriad Pro;
+    background-position: center;
+    width: 50%;
+    height: auto;
+    margin: 1% auto;
+  }
+   
+/* end primary ignition */
+
+/* start header */
+
+  h1 {
+    color: #1e88f7;
+    font-size: 2rem;
+    font-family: "Lucida Sans Unicode";
+    letter-spacing: .15rem;
+  }
+
+/* end header */
+
+/* start nav */
+
+  nav ul {
+    width: 50%;
+  }
+  nav li {
+    display: inline;
+    padding: .15rem;
+    margin: .15rem;
+    text-decoration: none;
+  }
+
+/* end nav */
+
+/* start bottom links */
+
+  aside {
+    width: 50%;
+  }
+  aside ol {
+    width: 50%;
+  }
+  ol li {
+    display: inline;
+    text-decoration: none;
+  }
+  li {
+    padding: .15rem;
+  }
+
+/* end bottom links */
+
+/* start footer */
+
+  footer {
+    clear: all;
+  }
+  footer p {
+    margin: .15rem auto;
+  }
+
+/* end footer */
