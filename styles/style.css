@@ -2,6 +2,10 @@
 
 /* commence primary ignition */
 
+  * {
+    box-sizing: border-box;
+  }
+
   header, section, footer, aside, nav, article, figure, figcaption {
     display: block;
   }
@@ -28,8 +32,8 @@
 
   h1 {
     color: #1e88f7;
-    font-size: 3rem;
-    font-family: "Century Gothic", sans-serif;
+    font-size: 3.25rem;
+    font-family: 'Inconsolata',;
     font-weight: 300;
     letter-spacing: .15rem;
     width: 50%;
@@ -43,19 +47,24 @@
 
   nav {
     width: 100%;
+    margin-bottom: .5rem;
   }
-
+  .navbar-fixed {
+  position: fixed;
+  top: -47px;
+  background-color: #333333;
+  z-index: 9999;
+}
   nav ul {
     width: 100%;
-    height: 5rem;
-    padding: .15rem;
-    margin: 0 auto;
+    height: 4rem;
+    padding: .5rem 0rem;
     text-align: center;
   }
   nav ul li {
     display: inline;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 3rem;
     margin: 0 auto;
   }
   .nav {
@@ -64,11 +73,13 @@
     color: #ffffff;
     background-color: #1e88f7;
     display: inline-block;
-    margin: .15rem;
+    margin: 0rem .15rem;
     padding: .15rem;
   }
   nav p {
-    font-family: "Century Gothic", sans-serif;
+    font-family: 'Inconsolata',;
+    font-size: 1.15rem;
+    margin-top: .85rem;
   }
 
 /* end nav */
@@ -77,21 +88,30 @@
 
   h2 {
     font-size: 1.5rem;
-    font-family: 
+    font-family: 'Inconsolata';
   }
-  section, article, figure, figcaption, img {
+  section, article, figure, figcaption, img{
     width: 100%;
   }
   figure {
     margin: 0;
   }
+  
+  /*figure img {
+    width: 90%;
+    padding-left: 10%
+  } */
   article h2 {
     width: 60%;
     padding-left: 20%;
+    margin: .5rem 0rem 1rem 0rem;
   }
   .content {
-    width: 60%;
+    width: 80%;
     padding-left: 20%;
+    font-family: 'Amiri', serif;
+    font-size: 1.3rem;
+    margin: .75rem 0rem;
   }
 
 /* end main section */
@@ -100,10 +120,11 @@
 
   aside {
     width: 100%;
+    margin: 1.1rem 0rem .1rem 0rem;
   }
   aside ul {
     width: 100%;
-    height: 5rem;
+    height: 4rem;
     padding: .15rem;
     margin: 0 auto;
     text-align: center;
@@ -115,7 +136,10 @@
     margin: 0 auto;
   }
   aside p {
-    font-family: "Century Gothic", sans-serif;
+    font-family: 'Inconsolata',;
+    font-size: 1.15rem;
+    margin-top: .85rem;
+    margin-bottom: .8rem;
     text-align: center;
   }
 
